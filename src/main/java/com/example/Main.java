@@ -1,9 +1,12 @@
 package com.example;
 
-import static spark.Spark.*;
-import kong.unirest.Unirest;
 import kong.unirest.HttpResponse;
 import kong.unirest.JsonNode;
+import kong.unirest.Unirest;
+import static spark.Spark.before;
+import static spark.Spark.get;
+import static spark.Spark.options;
+import static spark.Spark.staticFiles;
 
 //TESTESTESTE
 public class Main {
